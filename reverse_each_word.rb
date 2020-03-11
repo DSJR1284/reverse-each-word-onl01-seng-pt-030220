@@ -4,9 +4,9 @@
 #       return phrase.reverse
 # end 
 
-def reverse_each_word(pharse)
+def reverse_each_word(phrase)
   new_phrase=[]
-  pharse.each do |line|
+  phrase.each do |line|
     new_phrase << line.reverse 
   end 
   return  new_phrase 
