@@ -6,7 +6,7 @@
 
 def reverse_each_word(phrase)
   new_phrase=[]
-  phase.each do |line|
+  pharse.each do |line|
     new_phrase << line.reverse 
   end 
   return  new_phrase 
