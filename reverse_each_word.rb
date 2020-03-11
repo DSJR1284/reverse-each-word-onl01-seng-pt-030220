@@ -9,5 +9,5 @@ def reverse_each_word(phrase)
   phrase.split( ).each do |line|
     new_phrase << line.reverse 
   end 
-   return new_phrase 
+   return new_phrase.join(" ") 
 end 
